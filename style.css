@@ -417,7 +417,19 @@ animation: floating-arrow 1s alternate infinite ;
     padding: 10px 5%;
     margin: 20px;
   }
+  #header {
+    height: 80vh;
+    padding: 10px 8%;
 }
+#portfolio {
+  height: 73vh;
+  padding: 10px 5%;
+  margin: 30px;
+}
+
+}
+
+
 @media only screen and (max-width: 890px) {
   .header-text h1{
     font-size: 3.5rem;
