@@ -5,6 +5,7 @@
 }
 body {
   scroll-behavior: smooth;
+  max-width: 100vw;
 }
 #header {
   width: 100%;
@@ -377,18 +378,18 @@ svg {
 .up-arrow {
   width: 80px;
   position: relative;
-left: 21rem;
+left: 12rem;
 animation: floating-arrow 1s alternate infinite ;
 }
 
 @keyframes floating-arrow {
   from{
     border-radius: 30%;
-    bottom: -30px;
+    bottom: 5px;
   }
   to{
     border-radius: 50%;
-    bottom: 0px;
+    bottom: 20px;
   } 
 }
 
@@ -544,3 +545,26 @@ animation: floating-arrow 1s alternate infinite ;
   
 
 }
+
+
+@media only screen and (max-width: 556px) {
+  .project-card {
+    width: 110px;
+    height: 110px;
+  }
+  .project-filter {
+    margin: 10px;
+  }
+  .list{
+    font-size: 1.2rem;
+  }
+
+  #portfolio {
+    width: 90%;
+    height: 100vh;
+  }
+  
+  #portfolio h2 {
+    font-size: 60px;
+  }
+  }
