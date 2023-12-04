@@ -230,7 +230,7 @@ hr {
 
 /* Portfolio */
 #portfolio {
-  width: 100%;
+  width: 90%;
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -324,7 +324,7 @@ hr {
 }
 
 .container-left h3 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 .peo-data-class {
   display: block;
@@ -341,7 +341,7 @@ hr {
 }
 
 .mb-3 {
-  width: 500px;
+  width: 400px;
   line-height: 1;
 }
 
@@ -378,7 +378,6 @@ svg {
   width: 80px;
   position: relative;
 left: 21rem;
-
 animation: floating-arrow 1s alternate infinite ;
 }
 
@@ -408,7 +407,7 @@ animation: floating-arrow 1s alternate infinite ;
   }
 }
 
-@media only screen and (max-width: 704px) {
+@media only screen and (max-width: 783px) {
   .project-card{
     width: 150px;
     height: 150px;
@@ -427,6 +426,18 @@ animation: floating-arrow 1s alternate infinite ;
   margin: 30px;
 }
 
+.container-contact {
+  display: block;
+  height: 50vh;
+  justify-content: space-between;
+  padding: 12px 4%;
+}
+.up-arrow {
+  width: 40px;
+  position: relative;
+left: 14rem;
+animation: floating-arrow 1s alternate infinite ;
+}
 }
 
 
@@ -486,6 +497,10 @@ animation: floating-arrow 1s alternate infinite ;
     justify-content: space-around;
     padding: 10px;
     margin-top: 1.5rem;
+  }
+
+  footer{
+    visibility: hidden;
   }
 }
 
